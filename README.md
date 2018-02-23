@@ -10,3 +10,5 @@ This is an example website for an imaginary business created using bootstrap.
 * Bootstrap
 * Git
 * GitHub
+* JQuery
+* Cloud9
