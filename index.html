@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Whiskey Drop | Taste a new whiskey every month</title>
 </head>
@@ -36,7 +37,7 @@
     </nav>
     <!-- /.nav-->
 
-    <article class="container">
+    <div class="container alert-container">
         <!--Alert-->
         <div class="row hidden-xs">
             <div class="col-xs-12">
@@ -45,19 +46,24 @@
                 </div>
             </div>
         </div>
+    </div> 
+    <div class="container-fluid callout-container">
+        <div class="opaque-overlay">&nbsp;</div>
         <!--Callout-->
         <div class="row">
             <div class="col-xs-12">
                 <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <hr class="block-divider block-divider--orange">
                     <p class="lead">Sign up today to start recieveing the worlds best whiskeys every month. <s class="hidden-xs">€19.99</s> <span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
-                    <p><button class="btn btn-large btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up</button></p>
+                    <p><button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up</button></p>
                     <p class="text-muted"><small>You must be 18 or over to sign up to our service. Please drink responsibly.</small></p>
                 </section>
             </div>
         </div>
         <!-- /.callout-->
-
+    </div>
+    <div class="container quotes-container">
         <!--Quotes-->
         <section class="quotes">
             <div class="row">
@@ -98,7 +104,9 @@
             </div>
         </section>
         <!-- /.quotes-->
-
+    </div>
+    
+    <div class="container features-container">
         <!--Features-->
         <section class="features">
             <div class="row">
@@ -136,6 +144,7 @@
             </div>
         </section>
         <!-- /.features-->
+    </div>
 
         <!-- comment out for col exercise
             
